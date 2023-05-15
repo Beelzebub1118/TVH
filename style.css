@@ -1,0 +1,188 @@
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+
+
+p{
+  font-weight: bold;
+  color:#0F2535;
+}
+/* THIS IS FOR NAVBAR */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+.navbar-toggler {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-toggler.clicked {
+  transform: rotate(90deg);
+}
+
+
+*/
+/* THIS IS FOR ICONS IN FOOTER */
+#ABOUT{
+align-items: center;
+}
+#img{
+width: 50px;
+/* THIS IS BUTTONS IN GENERAL */
+} 
+.rounded-button {
+background-color: #003C68;
+color: white;
+border-radius: 5px; /* adjust the value as needed to change the roundness of the edge */
+/* padding: 10xp 20px; */
+cursor: pointer;
+transition: 0.3s ease;
+}
+
+/* Hover effect for the button */
+.rounded-button:hover {
+background-color: #0992bf;
+}
+
+/* CARD H3 NAMING */
+.card-text-h{
+font-weight: bold;
+color: #0F2535;
+}
+
+.card {
+  height: 100%;
+}
+
+.navbarNav .nav-link {
+  font-weight: normal;
+}
+
+ .hero-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+} 
+
+.hero-image {
+  position: relative;
+  height: 100%; /* adjust the height to fit your image */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+
+
+.hero-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+
+}
+.bg-image {
+  background-image: url('img/BAN\ 3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.rounded-button:hover {
+  background-color: #0069d9;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.rounded-button:hover img {
+  transform: translateX(5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.Guide-image {
+  position: relative;
+  height: 100%; /* adjust the height to fit your image */
+}
+
+.Guide-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+#ProductBanner.fade-out {
+  opacity: 0;
+  transition: opacity 0.9s ease-in-out; /* adds a transition effect */
+}
+
+
+.rounded-buttons {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+ 
+}
+
+.rounded-buttons:hover {
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+.see-more-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 20px 0;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.see-more-btn:hover {
+  background-color: #000000;
+ 
+}
+
+/* guide css */
+#guidelines{
+  font-weight: bold;
+  }
+
+/* #ProductBanner {
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+} */

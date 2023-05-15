@@ -1,0 +1,25 @@
+.rounded-button {
+    background-color: #003C68;
+    color: white;
+    border-radius: 5px; /* adjust the value as needed to change the roundness of the edge */
+    /* padding: 10xp 20px; */
+    cursor: pointer;
+    transition: 0.3s ease;
+    }
+
+    .card {
+        height: 100%;
+
+    }
+
+    .rounded-button:hover {
+        background-color: #0069d9;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+    .rounded-button:hover img {
+        transform: translateX(5px);
+        transition: transform 0.3s ease-in-out;
+      }
+
+     
